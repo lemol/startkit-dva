@@ -1,0 +1,7 @@
+node_modules
+bundle.js
+npm-debug.log
+*.swp
+dist
+yarn-error.log
+yarn.lock
