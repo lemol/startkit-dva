@@ -4,20 +4,13 @@
       "development": {
         "plugins": [
           [
-            "react-transform", 
+            "react-transform",
             {
               "transforms": [{
                 "transform": "react-transform-hmr",
                 "imports": ["react"],
                 "locals": ["module"]
               }]
-            }
-          ],
-          [
-            "dva-hmr",
-            {
-              "container": "#root",
-              "quiet": false
             }
           ]
         ]
